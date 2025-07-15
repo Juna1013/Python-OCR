@@ -1,3 +1,9 @@
+"""
+# 変更点ﾄ
+- google.colabとdriveのインポートと関連するGoogleDriveのマウント処理を削除
+- image_pathの入力指示をローカルのファイルパスを指定するように変更
+"""
+
 from PIL import Image
 import pytesseract
 import cv2
